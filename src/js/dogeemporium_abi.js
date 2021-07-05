@@ -1,4 +1,6 @@
-var dogeDeluxeABI = [
+var MarkBarkParkABI = [
+// var dogeDeluxeABI = [
+
     {
       "constant": false,
       "inputs": [
@@ -269,6 +271,7 @@ var dogeDeluxeABI = [
       "stateMutability": "view",
       "type": "function"
     },
+    {
       "constant": false,
       "inputs": [
         {

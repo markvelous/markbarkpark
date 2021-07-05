@@ -4,49 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Doge Deluxe</title>
+    <title>Mark Bark Park</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <script>
-      // This script is MetaMask boilerplate via CryptoZombies
-      // var dogeDeluxe;
-      // var userAccount;
-
-      // function startApp() {
-      //   var dogeDeluxeAddress = "YOUR_CONTRACT_ADDRESS";
-      //   dogeDeluxe = new web3js.eth.Contract(dogeDeluxeABI, dogeDeluxeAddress);
-
-      //   var accountInterval = setInterval(function() {
-      //     // Check if account has changed
-      //     if (web3.eth.accounts[0] !== userAccount) {
-      //       userAccount = web3.eth.accounts[0];
-      //       // Call some function to update the UI with the new account
-      //       updateInterface(userAccount).then(displayDoges);
-      //     }
-      //   }, 100); // Check every 100 milliseconds to see if userAccount = web3.eth.accounts[0]. If not, reassign userAccount to active account and call function to update display
-      // }
-      
+   
       window.addEventListener('load', function() {
         // Checking if Web3 has been injected by the browser (Mist/MetaMask)
         if (typeof web3 !== 'undefined') {
-          // Use Mist/MetaMask's provider
           web3js = new Web3(web3.currentProvider);
         } else {
           // Handle the case where the user doesn't have Metamask installed
           // Probably show them a message prompting them to install Metamask
         }
-        // Now you can start your app & access web3 freely:
         startApp()
       })
     </script>
@@ -54,15 +27,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
-          <h1 class="text-center">Doge Deluxe</h1>
-          <h5 class="text-center">Shopping as: <u id="account" /></h5>
-          <hr/>
-          <br/>
+          <h1 class="text-center">Mark Bark Park</h1>
+          <h5 class="text-center">My account: <u id="account" /></h5><br>
         </div>
       </div>
-      <h4 class="text-center"><mark>SALE: Buy Your First Doge and Get Your Second Doge FREE</mark></h4>
-      <button class="btn btn-default" id="reset-button" type="button" data-id="0">Reset</button>
-      <button class="btn btn-default" id="refund-button" type="button" data-id="0">Claim Refund</button>
+      <h4 class="text-center"><mark>Adopt an adorable and loyal companion today!</mark></h4><br>
       <hr/>
       <div id="petsRow" class="row">
         <!-- PETS LOAD HERE -->
@@ -81,7 +50,7 @@
             <strong>Breed</strong>: <span class="pet-breed">Golden Retriever</span><br/>
             <strong>Age</strong>: <span class="pet-age">3</span><br/>
             <strong>Location</strong>: <span class="pet-location">Warren, MI</span><br/><br/>
-            <button class="btn btn-default btn-adopt" type="button" data-id="0">Purchase</button>
+            <button class="btn btn-default btn-adopt" style="background-color: pink;" type="button" data-id="0">Take me home!</button>
           </div>
         </div>
       </div>

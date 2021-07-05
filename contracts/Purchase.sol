@@ -1,12 +1,11 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.5.0;
 
 import "./SafeMath.sol";
 import "./Ownable.sol";
 
-// @title Doge Deluxe manager
-// @author Jun Sung Lee
-// @notice Purchase available dogs from shop, apply discount when available, and refund ETH if store is reset.
-// @dev All function calls are currently implemented without side effects.
+// Added adoption fee and an adoption drive promo
 
 contract Purchase is Ownable {
 
@@ -48,7 +47,7 @@ contract Purchase is Ownable {
 	    msg.sender.transfer(amount);
     }
 
-    // @return if msg.sender has available ETH to withdraw.
+    // @return if msg.sender has available Ethers to withdraw.
     function refundAvailable() public view returns(bool) {
         return _addressRefundBalances[msg.sender] > 0;
     }
@@ -63,13 +62,11 @@ contract Purchase is Ownable {
     function purchase(uint petId) public payable stopInEmergency returns(uint) {
         require(petId >= 0 && petId <= 15);
         require(_purchasers[petId] == address(0x0));
-        // @dev MetaMask re-entrancy attack prevention (see avoiding_common_attacks.md for details)
         if (msg.value == 0) {  
             require(eligibleDiscount() == true);
         }
         _purchasers[petId] = msg.sender;
         _addressBalances[msg.sender] = _addressBalances[msg.sender].add(msg.value);
-        // @dev add msg.sender address to customer database
         return petId;
     }
 
@@ -78,7 +75,7 @@ contract Purchase is Ownable {
         return _purchasers;
     }
 
-    // @returns if account is eligible for store discount.
+    // @returns if account is eligible for adoption drive promotion
     function eligibleDiscount() public view returns(bool) {
         uint count = 0;
         for (uint i; i < _purchasers.length; i++) {
