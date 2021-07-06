@@ -1,11 +1,9 @@
-// SPDX-License-Identifier: MIT
-
 pragma solidity ^0.5.0;
 
 import "./SafeMath.sol";
 import "./Ownable.sol";
 
-// Added adoption fee and an adoption drive promo
+// Adopt a dog, apply discount when available, and refund ETH if store is reset
 
 contract Purchase is Ownable {
 
@@ -23,8 +21,7 @@ contract Purchase is Ownable {
         _admin = msg.sender;
     }
 
-    // @notice Reverts all previous transactions. Transaction history prior to reset is stored in _addressRefundBalances.
-    // @dev Accessible only by admin. 
+    // Transaction history prior to reset is stored in _addressRefundBalances; accessible by admin only 
     function reset() public onlyOwner {
 //        require(_admin == msg.sender);
         for (uint i = 0; i < _purchasers.length; i++) {
@@ -37,28 +34,23 @@ contract Purchase is Ownable {
         }
     }
 
-    // @notice Accounts can have ETH refunded for transactions prior to reset.
-    // @dev Accessible after reset by accounts that have spent ETH in store.
+    // Accounts can have ETH refunded for transactions prior to reset
+    //  Accessible after reset by accounts that have spent ETH in store
     function withdraw() public {
-        // @dev Denial of Service (DoS) attack prevention (see avoiding_common_attacks.md for details)
         require(_addressRefundBalances[msg.sender] > 0);
         uint amount = _addressRefundBalances[msg.sender];
 	    _addressRefundBalances[msg.sender] = 0;
 	    msg.sender.transfer(amount);
     }
 
-    // @return if msg.sender has available Ethers to withdraw.
     function refundAvailable() public view returns(bool) {
         return _addressRefundBalances[msg.sender] > 0;
     }
 
-    // @notice Prevents purchase function once triggered.
     function circuitBreaker() public {
         _stopped = true;
     }
 
-    // @notice Purchase available dog
-    // @param petId ID of dog being purchased.
     function purchase(uint petId) public payable stopInEmergency returns(uint) {
         require(petId >= 0 && petId <= 15);
         require(_purchasers[petId] == address(0x0));
@@ -70,12 +62,10 @@ contract Purchase is Ownable {
         return petId;
     }
 
-    // @notice Retrieves purchasers
     function getPurchasers() public view returns(address[16] memory) {
         return _purchasers;
     }
 
-    // @returns if account is eligible for adoption drive promotion
     function eligibleDiscount() public view returns(bool) {
         uint count = 0;
         for (uint i; i < _purchasers.length; i++) {

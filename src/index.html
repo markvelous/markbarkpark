@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mark Bark Park</title>
 
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
   <body>
     <script>
-   
       window.addEventListener('load', function() {
-        // Checking if Web3 has been injected by the browser (Mist/MetaMask)
         if (typeof web3 !== 'undefined') {
           web3js = new Web3(web3.currentProvider);
         } else {
-          // Handle the case where the user doesn't have Metamask installed
-          // Probably show them a message prompting them to install Metamask
         }
         startApp()
       })
@@ -28,13 +25,19 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
           <h1 class="text-center">Mark Bark Park</h1>
-          <h5 class="text-center">My account: <u id="account" /></h5><br>
+          <h5 class="text-center">My Account: <u id="account" /></h5>
+          <hr/>
         </div>
       </div>
-      <h4 class="text-center"><mark>Adopt an adorable and loyal companion today!</mark></h4><br>
+      <h3 class="text-center"><mark>* * *    ADOPTION DRIVE TODAY    * * *</mark></h3>
+      <h4 class="text-center"><b>Find a furry friend & a loyal companion</b></h4><br/>
+      <button class="btn btn-default" id="reset-button" type="button" data-id="0">Reset</button>
+      <button class="btn btn-default" id="refund-button" type="button" data-id="0">Claim Refund</button>
       <hr/>
       <div id="petsRow" class="row">
-        <!-- PETS LOAD HERE -->
+
+        <!-- LOAD DOGS FOR ADOPTION HERE -->
+
       </div>
     </div>
 
@@ -50,15 +53,13 @@
             <strong>Breed</strong>: <span class="pet-breed">Golden Retriever</span><br/>
             <strong>Age</strong>: <span class="pet-age">3</span><br/>
             <strong>Location</strong>: <span class="pet-location">Warren, MI</span><br/><br/>
-            <button class="btn btn-default btn-adopt" style="background-color: pink;" type="button" data-id="0">Take me home!</button>
+            <button class="btn btn-default btn-adopt" type="button" style="background-color: pink;" data-id="0">Adopt me!</button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/truffle-contract.js"></script>

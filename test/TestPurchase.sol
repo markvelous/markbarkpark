@@ -38,9 +38,4 @@ contract TestPurchase {
         address[16] memory purchasers = buy.getPurchasers();
         Assert.equal(purchasers[expectedPetId], expectedPurchaser, "Owner of the expected pet should be this contract");
     }
-
-    // Testing availability of withdrawable funds because this determines whether the refund button is visible or not.
-    function testRefundAvailable() public {
-        Assert.equal(buy.refundAvailable(), false, "Owner should not have available funds to withdraw");
-    }
 }

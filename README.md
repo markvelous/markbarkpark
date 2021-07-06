@@ -17,12 +17,12 @@ Run the following consecutively:
     truffle test
 
 You should see this:
-![Optional Text](./images/TruffleTest.png)  
+![Truffle Test result](./images/TruffleTest.png)  
 
 ## Using the DApp
 
     npm run dev
 
-A Metamask will pop-up. Set up the local network (localhost 7545) if it's not already done so. Check the tutorial above ^ for more details on setting up the network.
+A Metamask will pop-up. Set up the local network (localhost 7545) or change the network in truffle-config.sys. Check the tutorial above ^ for more details on setting up the network.
 
 You are now ready to adopt a digital pup!

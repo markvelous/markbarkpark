@@ -1,123 +1,123 @@
 [
   {
     "id": 0,
-    "name": "Manna",
+    "name": "Olivia",
     "picture": "images/manna.jpg",
     "age": 1,
     "breed": "Mini Poodle",
-    "location": "Seattle, WA"
+    "location": "Bedok"
   },
   {
     "id": 1,
-    "name": "Gina",
+    "name": "Leonardo D Kopi-O",
     "picture": "images/scottish-terridoge.jpeg",
     "age": 3,
     "breed": "Scottish Terridoge",
-    "location": "Tooleville, WV"
+    "location": "Woodlands"
   },
   {
     "id": 2,
-    "name": "Collins",
+    "name": "Raymond",
     "picture": "images/french-bulldoge.jpeg",
     "age": 2,
     "breed": "French Bulldoge",
-    "location": "Freeburn, ID"
+    "location": "Redhill"
   },
   {
     "id": 3,
-    "name": "Wow",
+    "name": "Elon",
     "picture": "images/much-doge.jpg",
     "age": 2,
-    "breed": "Shibe",
-    "location": "Albuquerque, NM"
+    "breed": "Shiba",
+    "location": "Tampines"
   },
   {
     "id": 4,
-    "name": "Frieda",
+    "name": "Nebuchadnezzar",
     "picture": "images/scottish-terridoge.jpeg",
     "age": 3,
     "breed": "Scottish Terridoge",
-    "location": "Lisco, AL"
+    "location": "Changi"
   },
   {
     "id": 5,
-    "name": "Elvia",
+    "name": "Elvis",
     "picture": "images/french-bulldoge.jpeg",
     "age": 3,
     "breed": "French Bulldoge",
-    "location": "Innsbrook, IL"
+    "location": "Telok Blangah"
   },
   {
     "id": 6,
-    "name": "Latisha",
+    "name": "System",
     "picture": "images/golden-doggo.jpeg",
     "age": 3,
     "breed": "Golden Doggo",
-    "location": "Soudan, LO"
+    "location": "Chinatown"
   },
   {
     "id": 7,
-    "name": "Coleman",
+    "name": "Ah Boy",
     "picture": "images/golden-doggo.jpeg",
     "age": 3,
     "breed": "Golden Doggo",
-    "location": "Jacksonwald, Palau"
+    "location": "Jurong West"
   },
   {
     "id": 8,
-    "name": "Nichole",
+    "name": "Shvan",
     "picture": "images/french-bulldoge.jpeg",
     "age": 2,
     "breed": "French Bulldoge",
-    "location": "Honolulu, HI"
+    "location": "Bukit Gombak"
   },
   {
     "id": 9,
-    "name": "Fran",
+    "name": "Tom Hanks",
     "picture": "images/doger.jpeg",
     "age": 3,
     "breed": "Doger",
-    "location": "Matheny, UT"
+    "location": "Ang Mo Kio"
   },
   {
     "id": 10,
-    "name": "Leonor",
+    "name": "Fatin",
     "picture": "images/doger.jpeg",
     "age": 2,
     "breed": "Doger",
-    "location": "Tyhee, IN"
+    "location": "Telok Kurau"
   },
   {
     "id": 11,
-    "name": "Dean",
+    "name": "Lai",
     "picture": "images/scottish-terridoge.jpeg",
     "age": 3,
     "breed": "Scottish Terridoge",
-    "location": "Windsor, MO"
+    "location": "Queenstown"
   },
   {
     "id": 12,
-    "name": "Stevenson",
+    "name": "Churchill",
     "picture": "images/french-bulldoge.jpeg",
     "age": 3,
     "breed": "French Bulldoge",
-    "location": "Kingstowne, NV"
+    "location": "King Albert Park"
   },
   {
     "id": 13,
-    "name": "Kristina",
+    "name": "Christina",
     "picture": "images/golden-doggo.jpeg",
     "age": 4,
     "breed": "Golden Doggo",
-    "location": "Sultana, MS"
+    "location": "Botanic Gardens"
   },
   {
     "id": 14,
-    "name": "Ethel",
+    "name": "Ah Girl",
     "picture": "images/golden-doggo.jpeg",
     "age": 2,
     "breed": "Golden Doggo",
-    "location": "Broadlands, OR"
+    "location": "Chai Chee"
   },
   {
     "id": 15,
@@ -125,6 +125,6 @@
     "picture": "images/golden-doggo.jpeg",
     "age": 2,
     "breed": "Golden Doggo",
-    "location": "Dawn, WI"
+    "location": "Ponggol"
   }
 ]

@@ -1,5 +1,4 @@
-var MarkBarkParkABI = [
-// var dogeDeluxeABI = [
+var markbarkparkABI = [
 
     {
       "constant": false,
