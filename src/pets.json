@@ -2,9 +2,9 @@
   {
     "id": 0,
     "name": "Olivia",
-    "picture": "images/manna.jpg",
+    "picture": "images/shihtzu.png",
     "age": 1,
-    "breed": "Mini Poodle",
+    "breed": "Shih Tzu",
     "location": "Bedok"
   },
   {
@@ -34,9 +34,9 @@
   {
     "id": 4,
     "name": "Nebuchadnezzar",
-    "picture": "images/scottish-terridoge.jpeg",
+    "picture": "images/manna.jpeg",
     "age": 3,
-    "breed": "Scottish Terridoge",
+    "breed": "Mini Poodle",
     "location": "Changi"
   },
   {
