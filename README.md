@@ -25,6 +25,6 @@ You should see this:
 
 A Metamask will pop-up. Set up the local network (localhost 7545) or change the network in truffle-config.sys. Check the [tutorial](https://www.trufflesuite.com/tutorials/pet-shop) for more detailed instructions if you need help in setting it up.
 
-![Homepage](./images/TruffleTest.png)  
+![Homepage](./images/home.png)  
 
 You are now ready to adopt a digital pup!
