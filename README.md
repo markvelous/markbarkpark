@@ -1,4 +1,4 @@
-# Mark 🐕 Bark Park
+# Mark Bark Park 🐶
 
 Mark Tan P7210027 SGBT4 for the fulfilment of course assignment for Basic Blockchain
 
@@ -23,6 +23,8 @@ You should see this:
 
     npm run dev
 
-A Metamask will pop-up. Set up the local network (localhost 7545) or change the network in truffle-config.sys. Check the tutorial above ^ for more details on setting up the network.
+A Metamask will pop-up. Set up the local network (localhost 7545) or change the network in truffle-config.sys. Check the [tutorial](https://www.trufflesuite.com/tutorials/pet-shop) for more detailed instructions if you need help in setting it up.
+
+![Homepage](./images/TruffleTest.png)  
 
 You are now ready to adopt a digital pup!
