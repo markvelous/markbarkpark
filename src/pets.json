@@ -10,31 +10,31 @@
   {
     "id": 1,
     "name": "Leonardo D Kopi-O",
-    "picture": "images/scottish-terridoge.jpeg",
+    "picture": "images/terrier.jpg",
     "age": 3,
-    "breed": "Scottish Terridoge",
+    "breed": "Scottish Terrier",
     "location": "Woodlands"
   },
   {
     "id": 2,
     "name": "Raymond",
-    "picture": "images/french-bulldoge.jpeg",
+    "picture": "images/french_bulldog.jpg",
     "age": 2,
-    "breed": "French Bulldoge",
+    "breed": "French Bulldog",
     "location": "Redhill"
   },
   {
     "id": 3,
     "name": "Elon",
-    "picture": "images/much-doge.jpg",
+    "picture": "images/shiba.jpg",
     "age": 2,
-    "breed": "Shiba",
+    "breed": "Shiba Inu",
     "location": "Tampines"
   },
   {
     "id": 4,
     "name": "Nebuchadnezzar",
-    "picture": "images/manna.jpeg",
+    "picture": "images/poodle.jpg",
     "age": 3,
     "breed": "Mini Poodle",
     "location": "Changi"
@@ -42,89 +42,89 @@
   {
     "id": 5,
     "name": "Elvis",
-    "picture": "images/french-bulldoge.jpeg",
+    "picture": "images/french_bulldog.jpg",
     "age": 3,
-    "breed": "French Bulldoge",
+    "breed": "French Bulldog",
     "location": "Telok Blangah"
   },
   {
     "id": 6,
-    "name": "System",
-    "picture": "images/golden-doggo.jpeg",
+    "name": "Ramsey",
+    "picture": "images/bulldog.jpg",
     "age": 3,
-    "breed": "Golden Doggo",
+    "breed": "Bulldog",
     "location": "Chinatown"
   },
   {
     "id": 7,
     "name": "Ah Boy",
-    "picture": "images/golden-doggo.jpeg",
+    "picture": "images/retriever.jpg",
     "age": 3,
-    "breed": "Golden Doggo",
+    "breed": "Golden Retriever",
     "location": "Jurong West"
   },
   {
     "id": 8,
     "name": "Shvan",
-    "picture": "images/french-bulldoge.jpeg",
+    "picture": "images/french_bulldog.jpg",
     "age": 2,
-    "breed": "French Bulldoge",
+    "breed": "French Bulldog",
     "location": "Bukit Gombak"
   },
   {
     "id": 9,
     "name": "Tom Hanks",
-    "picture": "images/doger.jpeg",
+    "picture": "images/bulldog.jpg",
     "age": 3,
-    "breed": "Doger",
+    "breed": "Bulldog",
     "location": "Ang Mo Kio"
   },
   {
     "id": 10,
-    "name": "Fatin",
-    "picture": "images/doger.jpeg",
+    "name": "Lai",
+    "picture": "images/terrier.jpg",
     "age": 2,
-    "breed": "Doger",
+    "breed": "Scottish Terrier",
     "location": "Telok Kurau"
   },
   {
     "id": 11,
-    "name": "Lai",
-    "picture": "images/scottish-terridoge.jpeg",
+    "name": "Goldilocks",
+    "picture": "images/retriever.jpg",
     "age": 3,
-    "breed": "Scottish Terridoge",
+    "breed": "Golden Retriever",
     "location": "Queenstown"
   },
   {
     "id": 12,
     "name": "Churchill",
-    "picture": "images/french-bulldoge.jpeg",
+    "picture": "images/french_bulldog.jpg",
     "age": 3,
-    "breed": "French Bulldoge",
+    "breed": "French Bulldog",
     "location": "King Albert Park"
   },
   {
     "id": 13,
     "name": "Christina",
-    "picture": "images/golden-doggo.jpeg",
+    "picture": "images/retriever.jpg",
     "age": 4,
-    "breed": "Golden Doggo",
+    "breed": "Golden Retriever",
     "location": "Botanic Gardens"
   },
   {
     "id": 14,
     "name": "Ah Girl",
-    "picture": "images/golden-doggo.jpeg",
+    "picture": "images/poodle.jpg",
     "age": 2,
-    "breed": "Golden Doggo",
+    "breed": "Mini Poodle",
     "location": "Chai Chee"
   },
   {
     "id": 15,
     "name": "Terry",
-    "picture": "images/golden-doggo.jpeg",
+    "picture": "images/retriever.jpg",
     "age": 2,
-    "breed": "Golden Doggo",
+    "breed": "Golden Retriever",
     "location": "Ponggol"
   }
 ]
