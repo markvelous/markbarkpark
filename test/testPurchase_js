@@ -5,7 +5,7 @@ contract("Purchase", (accounts) => {
   let toPurchase;
 
   before(async () => {
-    await toPurchase.deployed();
+    purchase = await toPurchase.deployed();
   });
 
   afterEach(async () => {
