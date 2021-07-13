@@ -37,5 +37,5 @@ contract TestPurchase {
         // Store adopters in memory rather than contract's storage
         address[16] memory purchasers = buy.getPurchasers();
         Assert.equal(purchasers[expectedPetId], expectedPurchaser, "Owner of the expected pet should be this contract");
-    }
-}
+
+}}
